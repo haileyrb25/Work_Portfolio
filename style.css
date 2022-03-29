@@ -81,3 +81,11 @@ h1 span {
     margin-inline-end: 17px;
     font-weight: bold;
 }
+
+p {
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  margin-inline-start: 405px;
+  
+}
