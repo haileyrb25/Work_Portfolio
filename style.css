@@ -82,10 +82,58 @@ h1 span {
     font-weight: bold;
 }
 
-p {
+
+article > h5 { display: inline-block; }
+article p { margin-left: 350px; }
+
+/* h5 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  color: #2e3030; */
+  /* border-right: 3px solid #2e3030;
+  justify-content: space-between;
+  display: block; 
+} */
+
+/* p {
   display: block;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: small;
-  margin-inline-start: 405px;
-  
+  margin-right: 5px; 
+} */
+
+.flex-container {
+  display: flex;
+
 }
+
+.flex-container1 {
+  flex: 1;
+  border-right: 2px solid #2e3030;
+  margin: 5%;
+  padding-left: 10%;
+  justify-content: space-between;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  color: #2e3030;
+}  
+
+.flex-container2{
+  margin-right: 2px;
+  float: right;
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  margin-right: 5px; 
+} 
+
+
+/* .container1 {
+  border-right: 3px solid #2e3030;
+  justify-content: space-between;
+  /* display: block; */
+/* }
+.container2 {
+  width: auto;
+  float: right;
+} */ 
