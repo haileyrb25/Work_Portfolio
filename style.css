@@ -153,7 +153,7 @@ article p { margin-left: 350px; }
   font-size: small;
   margin-right: 5px;  */
 /* }  */
-
+/* 
 
 .flex-examples {
   display: flex;
@@ -166,31 +166,33 @@ article p { margin-left: 350px; }
   display: flex;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   background-color: rgb(90, 173, 184);
+} */
+
+#examplebox {
+  border: 2px solid rgb(111, 211, 224);
+  padding: 25px;
+  background: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fsocialistmodernism.com%2Fplaceholder-image%2F&psig=AOvVaw0L0ct0s92DznTqczhbbm15&ust=1648772168521000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCND2jY2J7_YCFQAAAAAdAAAAABAD);
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 
-/* .parent-box {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 10px;
-  column-gap: 2em;
-} */
-
-.parent-box > * {
+.flex-foot1 {
   flex: 1;
-}
-/* 
-.child1 {
-  background-color: red;
-  width: 100px;
-  height: 100px;
-} */
-/* .container1 {
-  border-right: 3px solid #2e3030;
+  border-right: 2px solid #2e3030;
+  margin: 5%;
+  padding-left: 10%;
   justify-content: space-between;
-  /* display: block; */
-/* }
-.container2 {
-  width: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: x-large;
+  color: #2e3030;
+}  
+
+.flex-foot2 {
+  margin-right: 2px;
   float: right;
-} */ 
+  display: block;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: small;
+  margin-right: 5px; 
+} 
