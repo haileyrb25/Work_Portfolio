@@ -3,23 +3,22 @@ h1 {
   text-align: left;
   font-family: 'Raleway', sans-serif;
   font-size: 60px;
-  padding: 0%;
+  padding: 5px;
 }
 
 h1 span {
   background-color: rgba(245, 173, 229, 0.829);
+  opacity: 0.9;
 }
 
 .topnav {
   padding: 2px;
   background: #000000;
-  color: #2e3030;
+  color: #f3f3f3;
   font-size: 25px;
 }
-/* 
-.topnav {
-  float: right;
-} */
+
+
 .topnav ul {
   float: right;
   list-style: none;
@@ -58,9 +57,11 @@ h1 span {
     max-width: 300px;
     padding: 1.0rem;
     word-break: break-word;
+    font-family: 'Raleway', sans-serif;
     font-size: 1.25rem;
-    background-color: rgb(111, 211, 224);
-    color: #2e3030;
+    background-color: rgb(236, 191, 139);
+    opacity: 0.95;
+    color: #f3f3f3;
   }
 
   .box-flex {
@@ -95,26 +96,28 @@ article p { margin-left: 350px; }
 
 .flex-container {
   display: flex;
+  padding: 3%;
 
 }
 
 .flex-container1 {
   flex: 1;
-  border-right: 2px solid #2e3030;
+  border-right: 2px solid rgba(245, 173, 229, 0.829);
   margin: 5%;
   padding-left: 10%;
   justify-content: space-between;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: x-large;
-  color: #2e3030;
+  color: #000000;
 }  
 
 .flex-container2 {
   margin-right: 2px;
   float: right;
   display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bolder;
+  font-size: medium;
   margin-right: 5px; 
 } 
 
@@ -127,13 +130,13 @@ article p { margin-left: 350px; }
 
 .flex-work {
   flex: 1;
-  border-right: 2px solid #2e3030;
+  border-right: 2px solid rgba(245, 173, 229, 0.829);
   margin: 5%;
   padding-left: 10%;
   justify-content: space-between;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: x-large;
-  color: #2e3030;
+  color: #000000;
 }  
 
 
@@ -150,27 +153,27 @@ article p { margin-left: 350px; }
 
 .flex-foot1 {
   flex: 1;
-  border-right: 2px solid #2e3030;
+  border-right: 2px solid rgba(245, 173, 229, 0.829);
   margin: 5%;
   padding-left: 10%;
   justify-content: space-between;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: x-large;
-  color: #2e3030;
+  color: #000000;
 }  
 
 .flex-foot2 {
   margin-right: 2px;
   float: right;
   display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
+  font-family: 'Raleway', sans-serif;
+  font-size: medium;
   margin-right: 5px; 
 } 
 
 #project1 {
   display: flex;
-  border: 2px solid rgb(111, 211, 224);
+  border: 2px solid rgb(0, 0, 0);
   padding: 400px;
   margin: 80px;
   background-image: url(./assets/screenshot.jpg);
@@ -188,8 +191,8 @@ footer {
     margin-right: 2px;
   float: right;
   display: block;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
+  font-family: 'Raleway', sans-serif;
+  font-size: medium;
   margin-right: 5px; 
 } 
 
