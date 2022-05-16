@@ -183,6 +183,18 @@ article p { margin-left: 350px; }
   align-items: center;
 }
 
+#project2 {
+  display: flex;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 400px;
+  margin: 80px;
+  background-image: url(./assets/screenshot2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
 
 footer {
   display: flex;
