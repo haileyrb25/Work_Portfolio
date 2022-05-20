@@ -12,4 +12,4 @@ Click this link to see my github activity for this repository!
 
 
 Here is what the final product looks like:
-![screenshot]()
+![screenshot](./assets/screnshot.jpg)
