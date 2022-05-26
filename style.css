@@ -131,8 +131,8 @@ article p { margin-left: 350px; }
 .flex-work {
   flex: 1;
   border-right: 2px solid rgba(245, 173, 229, 0.829);
-  margin: 5%;
-  padding-left: 10%;
+  margin: 12%;
+  padding-left: 5%;
   justify-content: space-between;
   font-family: 'Raleway', sans-serif;
   font-size: x-large;
@@ -176,7 +176,7 @@ article p { margin-left: 350px; }
   border: 2px solid rgb(0, 0, 0);
   padding: 400px;
   margin: 80px;
-  background-image: url(./assets/screenshot.jpg);
+  background-image: url(./assets/screenshot2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -188,7 +188,7 @@ article p { margin-left: 350px; }
   border: 2px solid rgb(0, 0, 0);
   padding: 400px;
   margin: 80px;
-  background-image: url(./assets/screenshot2.jpg);
+  background-image: url(./assets/screenshot.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   justify-content: center;
@@ -200,6 +200,7 @@ footer {
   display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
     margin-right: 2px;
   float: right;
   display: block;
@@ -213,6 +214,7 @@ ul {
 	list-style: none;
     padding-bottom: 5px;
     padding-top: 5px;
+   
 
 }
 
