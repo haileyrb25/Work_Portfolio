@@ -312,6 +312,7 @@ h1 {
 /* Text in banner */
 
 .box-caption {
+  margin-top: 5rem;
   margin-left: 80%;
   float: right;
   color: #f3f3f3;
