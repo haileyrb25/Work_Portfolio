@@ -12,4 +12,6 @@ Click this link to see my github activity for this repository!
 
 
 Here is what the final product looks like:
-![screenshot](./assets/screnshot.jpg)
+![screenshot](./assets/readme.jpg)
+
+![](./assets/readme.gif)
