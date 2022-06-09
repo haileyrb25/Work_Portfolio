@@ -370,11 +370,12 @@ text-align: right;
 /* Image sizes in projects */
 
 #image1 {
-  background-image: url(".");
+  background-image: url("./assets/houser.png");
   height: 25rem;
+  width: 75rem;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 
 #image2{
